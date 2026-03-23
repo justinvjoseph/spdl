@@ -59,6 +59,16 @@ is\_eof
    is_eof
 
 
+is\_epoch\_end
+^^^^^^^^^^^^^^
+.. autosummary::
+   :toctree:
+   :nosignatures:
+   :hide_from_toctree:
+
+   is_epoch_end
+
+
 profile\_pipeline
 ^^^^^^^^^^^^^^^^^
 .. autosummary::
@@ -151,6 +161,39 @@ run\_pipeline\_in\_subinterpreter
 .. rubric:: Classes
 
 
+BackgroundTask
+^^^^^^^^^^^^^^
+.. autosummary::
+   :toctree:
+   :nosignatures:
+   :hide_from_toctree:
+   :template: _custom_autosummary_class.rst
+
+   BackgroundTask
+
+
+ProcessGroupResourceUsage
+^^^^^^^^^^^^^^^^^^^^^^^^^
+.. autosummary::
+   :toctree:
+   :nosignatures:
+   :hide_from_toctree:
+   :template: _custom_autosummary_class.rst
+
+   ProcessGroupResourceUsage
+
+
+ProcessGroupStatsMonitor
+^^^^^^^^^^^^^^^^^^^^^^^^
+.. autosummary::
+   :toctree:
+   :nosignatures:
+   :hide_from_toctree:
+   :template: _custom_autosummary_class.rst
+
+   ProcessGroupStatsMonitor
+
+
 ProfileResult
 ^^^^^^^^^^^^^
 .. autosummary::
@@ -239,6 +282,17 @@ AsyncQueue
    AsyncQueue
 
 
+StageInfo
+^^^^^^^^^
+.. autosummary::
+   :toctree:
+   :nosignatures:
+   :hide_from_toctree:
+   :template: _custom_autosummary_class.rst
+
+   StageInfo
+
+
 StatsQueue
 ^^^^^^^^^^
 .. autosummary::
@@ -318,6 +372,28 @@ PipelineFailure
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+.. rubric:: Others
+BackgroundTaskFactory
+^^^^^^^^^^^^^^^^^^^^^
+
+.. autosummary::
+   :template: _custom_autosummary_others.rst
+   :toctree:
+   :nosignatures:
+   :hide_from_toctree:
+
+   BackgroundTaskFactory
 
 
 
